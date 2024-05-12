@@ -58,15 +58,17 @@ footer {
         flex-basis: 100%;
     }
 }
+
 nav ul li a {
     text-decoration: none;
     color: #333;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff6600; 
+    color: #ff6600;
 }
+
 .gallery {
     padding: 20px;
 }
