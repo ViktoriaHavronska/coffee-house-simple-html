@@ -1,8 +1,6 @@
-/* o_nas-styles.css */
-
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
@@ -13,7 +11,7 @@ header {
 }
 
 header img {
-    max-width: 100px;
+    max-width: 600px;
 }
 
 nav ul {
@@ -23,7 +21,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 nav ul li a {
@@ -32,6 +30,8 @@ nav ul li a {
 }
 
 main {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
 }
 
